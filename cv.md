@@ -1,11 +1,42 @@
 # Ivanov Sergey
 ***
 ## Junior Frontend Developer
+______
+#### *Contact information:*
+
+   **Location:** Ukraine, Sumy  
+   **Phone number:** +380664152609  
+   **Email:** IvanovSergey.94.28@gmail.com  
+
+&ensp;&ensp;&ensp;&ensp;[![Telegram logo](img/telegram.png)](https://t.me/Ivan0vS27 "Link to my telegram page") &ensp;&ensp;&ensp;&ensp;[![Facebook logo](img/facebook.png)](https://www.facebook.com/profile.php?id=100017419020667 "Link to my facebook page")
 ***
-### Contact information:
+**University:** Sumy State University,
+faculty of Electronics and Information Technology
+***
+**About me:**
+> _&ensp;&ensp;&ensp&ensp;;I have good interpersonal skills, am an excellent team worker and very willing to learn and develop new skills._
+***
+**Skills:** 
 
-**Location:** Ukraine, Sumy
-**Phone number:** +380664152609
-**Email:** IvanovSergey.94.28@gmail.com
+* HTML
+* CSS
+* Markdown
+* javaScript
+***
+&ensp;&ensp;&ensp;&ensp;***Code example:*** *In this kata you are required to, given a string, replace every letter with its position in the alphabet. If anything in the text isn't a letter, ignore it and don't return it.*
+```
+function alphabetPosition(text) {
+  let newArr = text
+    .toLowerCase()
+    .split("")
+    .reduce((acc, item) => {
+      if (item.charCodeAt() > 96 && item.charCodeAt() < 123) {
+        return acc + ` ${item.charCodeAt() - 96}`;
+      } else {
+        return acc;
+      }
+    }, "");
 
-[![Telegram logo](img/telegram.png)](https://t.me/Ivan0vS27 "Link to my telegram page") [![Facebook logo](img/facebook.png)](https://www.facebook.com/profile.php?id=100017419020667 "Link to my facebook page")
+  return newArr.slice(1);
+}
+```
