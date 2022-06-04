@@ -37,7 +37,7 @@ faculty of Electronics and Information Technology
 ---
 **Code example**
 
-&ensp;&ensp;&ensp;&ensp;**_KATA from CODEWARS:_** _This function replaces every letter with its position in the alphabet. If anything in the text isn't a letter, ignore it and don't return it._
+&ensp;&ensp;&ensp;&ensp;***KATA from CODEWARS:*** _This function replaces every letter with its position in the alphabet. If anything in the text isn't a letter, ignore it and don't return it._
 
 ```
 function alphabetPosition(text) {
