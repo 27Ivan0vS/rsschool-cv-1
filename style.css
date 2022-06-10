@@ -90,17 +90,19 @@ body {
   margin: 0 auto;
 }
 
+/*Header styles start*/
+
 .header {
   display: flex;
   justify-content: space-between;
   height: 100%;
 }
-.header_part_left {
+.style_part_left {
   width: 40%;
   background-color: #174180;
 }
 
-.header_part_right {
+.style_part_right {
   width: 60%;
   background-color: #ebf0f5;
 }
@@ -112,11 +114,15 @@ body {
 }
 
 .avatar_header {
+  transition: 1s;
   border-radius: 50%;
   border: 3px solid #5826a8;
   box-shadow: 0 0 100px #377be0;
+  width: 300px;
 }
-
+.avatar_header:hover {
+  transform: scale(1.2); /* Увеличиваем масштаб */
+}
 .heder_right_wrapper {
   padding: 0px 60px;
 }
@@ -128,10 +134,108 @@ body {
   font-size: 45px;
 }
 
-
 .header_subtitle {
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
 }
+/*Header styles end*/
+/*Main styles start*/
+.contacts {
+  padding: 30px 60px 10px;
+}
+
+.header_contacts {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  color: #ffffff;
+  padding-bottom: 10px;
+}
+
+.list_contacts {
+  padding-bottom: 10px;
+}
+
+.link_icons {
+  display: inline-flex;
+  align-items: center;
+  padding-bottom: 3px;
+  text-decoration: none;
+  border-bottom: 3px solid #174180;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #56ccf2;
+}
+
+.link_icons:hover,
+.link_icons:focus,
+.link_icons:active {
+  border-bottom: 3px solid #b9b9cf;
+  color: #b9b9cf;
+}
+
+.image_icons {
+  width: 32px;
+}
+
+.link_text {
+  padding-left: 10px;
+}
+
+/*Education start*/
+.education {
+  padding: 30px 60px 10px;
+}
+
+.wrapper_education {
+  padding: 20px 0px;
+}
+
+.date_study {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: #56ccf2;
+}
+
+.text_university {
+  padding-left: 10px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #ffffff;
+}
+.wrapper_education .image_icons {
+  width: 45px;
+}
+/*Education end*/
+/* Skills start */
+.skills {
+  padding: 30px 60px 10px;
+}
+.list_skills {
+  padding-bottom: 15px;
+}
+.level_skils {
+  padding: 0px 10px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #56ccf2;
+}
+progress {
+  width: 260px;
+  height: 20px;
+}
+
+/* Skills end */
+/*Main styles end*/

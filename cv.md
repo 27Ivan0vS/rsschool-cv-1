@@ -12,7 +12,7 @@
  **Phone number:** +380664152609  
  **Email:** IvanovSergey.94.28@gmail.com
 
-&ensp;&ensp;&ensp;&ensp;[![Telegram logo](img/telegram.png)](https://t.me/Ivan0vS27 "Link to my telegram page") &ensp;&ensp;&ensp;&ensp;[![Facebook logo](img/facebook.png)](https://www.facebook.com/profile.php?id=100017419020667 "Link to my facebook page")
+&ensp;&ensp;&ensp;&ensp;[![Telegram logo](img/SVJ/telegram32px.png)](https://t.me/Ivan0vS27 "Link to my telegram page") &ensp;&ensp;&ensp;&ensp;[![Facebook logo](img/SVJ/facebook32px.png)](https://www.facebook.com/profile.php?id=100017419020667 "Link to my facebook page")
 
 ---
 
