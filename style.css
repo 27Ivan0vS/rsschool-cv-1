@@ -212,6 +212,10 @@ body {
   font-weight: 400;
   font-size: 18px;
   color: #ffffff;
+  line-height: 1.4;
+}
+.bold_font {
+  color: #cfcceb;
 }
 .wrapper_education .image_icons {
   width: 45px;
@@ -224,7 +228,7 @@ body {
 .list_skills {
   padding-bottom: 15px;
 }
-.level_skils {
+.level_skills {
   padding: 0px 10px;
   font-family: "Open Sans";
   font-style: normal;
@@ -236,6 +240,76 @@ progress {
   width: 260px;
   height: 20px;
 }
-
 /* Skills end */
+
+/*Foreign languages start*/
+.languages {
+  padding: 30px 60px 100px;
+}
+.languages_wrapper {
+  display: inline-flex;
+  align-items: center;
+}
+.text_skills {
+  padding-left: 10px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #56ccf2;
+}
+.circle {
+  background: #dbdde1;
+  clip-path: circle(50%);
+  height: 13px;
+  width: 13px;
+}
+/*Foreign languages end*/
 /*Main styles end*/
+
+/* Footer start */
+.footer {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #99abd5;
+}
+.footer_list {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  height: 100%;
+  padding: 10px 0px;
+}
+.list_items_footer {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+}
+
+.link_footer {
+  text-decoration: none;
+  border-bottom: 3px solid #99abd5;
+}
+
+.link_footer:hover,
+.link_footer:focus,
+.link_footer:active {
+  border-bottom: 3px solid #3c3c96;
+}
+.image_footer {
+  width: 40px;
+}
+.image_footer.rs_school {
+  width: 100px;
+}
+.text_footer {
+  display: flex;
+  justify-content: center;
+  padding: 5px 0px 15px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  color: #0c0b0b;
+}
+/* Footer end */
