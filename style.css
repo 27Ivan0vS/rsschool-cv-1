@@ -81,8 +81,7 @@ img {
 
 body {
   width: 100%;
-  font-family: "ralewayregular";
-  color: #363636;
+  background-color: #363636;
 }
 
 .wrapper {
@@ -95,6 +94,12 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
+  height: 100%;
+}
+.main {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: nowrap;
   height: 100%;
 }
 .style_part_left {
@@ -152,7 +157,7 @@ body {
   font-weight: 400;
   font-size: 24px;
   color: #ffffff;
-  padding-bottom: 10px;
+  padding-bottom: 15px;
 }
 
 .list_contacts {
@@ -244,7 +249,7 @@ progress {
 
 /*Foreign languages start*/
 .languages {
-  padding: 30px 60px 100px;
+  padding: 30px 60px 50px;
 }
 .languages_wrapper {
   display: inline-flex;
@@ -265,8 +270,91 @@ progress {
   width: 13px;
 }
 /*Foreign languages end*/
-/*Main styles end*/
+/* About me start */
+.left_padding {
+  padding: 30px 60px 50px 60px;
+}
+.about_me {
+  padding-bottom: 40px;
+}
+.header_section {
+  padding-bottom: 10px;
+  font-family: "Lato";
+  font-style: italic;
+  font-weight: 700;
+  font-size: 24px;
+  color: #174180;
+}
 
+.text_basis {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #4f4f4f;
+  line-height: 1.2;
+}
+/* About me end */
+/* Work Expirience start */
+.work {
+  padding-bottom: 40px;
+}
+.link_icons .text_basis {
+  padding-left: 10px;
+}
+.work .link_icons {
+  border-bottom: 3px solid #ebf0f5;
+}
+.work .link_icons:hover,
+.work .link_icons:focus,
+.work .link_icons:active {
+  border-bottom: 3px solid #b9b9cf;
+}
+/* Work Expirience eng */
+/* Code example start */
+.code {
+  padding-bottom: 40px;
+}
+.main_bold_font {
+  font-weight: 900;
+}
+.code_text_decoration {
+  line-height: 1.2;
+}
+/* Code example end */
+/*Projects start*/
+.projects {
+  padding-bottom: 40px; 
+}
+
+.link_icons .text_basis {
+  padding-left: 10px;
+}
+.projects .link_icons {
+  border-bottom: 3px solid #ebf0f5;
+}
+.projects .link_icons:hover,
+.projects .link_icons:focus,
+.projects .link_icons:active {
+  border-bottom: 3px solid #b9b9cf;
+}
+.text_basis .link_icons {
+  padding-left: 10px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #4f4f4f;
+  line-height: 1.2;
+}
+/*Projects end*/
+/* Achievement start */
+
+/* Achievement end */
+/*Main styles end*/
+.achievement {
+  padding-bottom: 40px; 
+}
 /* Footer start */
 .footer {
   max-width: 1200px;
@@ -305,7 +393,9 @@ progress {
 .text_footer {
   display: flex;
   justify-content: center;
-  padding: 5px 0px 15px;
+  padding: 5px 0px 10px;
+
+  word-spacing: 7px;
   font-family: "Lato";
   font-style: normal;
   font-weight: 900;
