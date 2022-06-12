@@ -36,7 +36,7 @@
               <li class="list_contacts">
                 <a
                   class="link_icons"
-                  href="mailto: ivanovsergey.94.28@gmail.com"
+                  href="mailto:ivanovsergey.94.28@gmail.com"
                   target="_blank"
                 >
                   <img
@@ -48,7 +48,7 @@
                 </a>
               </li>
               <li class="list_contacts">
-                <a class="link_icons" href="tel: +380664152609" target="_blank">
+                <a class="link_icons" href="tel:+380664152609" target="_blank">
                   <img
                     class="image_icons"
                     src="img/SVJ/phone.png"
@@ -132,7 +132,8 @@
           <!-- Education start -->
           <section class="education">
             <h2 class="header_contacts">Education</h2>
-            <time class="date_study" datetime="2011-2017">2011 - 2017</time>
+            <time class="date_study" datetime="2011">2011</time>
+            <time class="date_study" datetime="2017">- 2017</time>
             <div class="wrapper_education">
               <a
                 class="link_icons"
@@ -252,7 +253,7 @@
                 />
                 <p class="text_basis">
                   From July 2016 to the present -
-                  <abr title="joint stock company">JSC</abr> "Sumioblenergo",
+                  <abbr title="joint stock company">JSC</abbr> "Sumioblenergo",
                   master of the II group of service substations 35 kV and above.
                 </p>
               </a>
@@ -274,9 +275,9 @@
                     let newArr = text
                       .toLowerCase()
                       .split("")
-                      .reduce((acc, item) => {
+                      .reduce((acc, item) =	&gt; {
                         
-                        if (item.charCodeAt() > 96 && item.charCodeAt() < 123) {
+                        if (item.charCodeAt() 	&gt; 96 && item.charCodeAt() 	&lt; 123) {
                           return acc + ` ${item.charCodeAt() - 96}`;
                         } else {
                           return acc;
