@@ -1,0 +1,407 @@
+/* open-sans-regular - latin */
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("fonts/open-sans-v29-latin-regular.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("fonts/open-sans-v29-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* open-sans-600 - latin */
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  src: local(""), url("fonts/open-sans-v29-latin-600.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("fonts/open-sans-v29-latin-600.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* open-sans-700 - latin */
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("fonts/open-sans-v29-latin-700.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("fonts/open-sans-v29-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* open-sans-600italic - latin */
+@font-face {
+  font-family: "Open Sans";
+  font-style: italic;
+  font-weight: 600;
+  src: local(""),
+    url("fonts/open-sans-v29-latin-600italic.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("fonts/open-sans-v29-latin-600italic.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* lato-regular - latin */
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("fonts/lato-v23-latin-regular.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("fonts/lato-v23-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* lato-700 - latin */
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("fonts/lato-v23-latin-700.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("fonts/lato-v23-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* lato-900 - latin */
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 900;
+  src: local(""), url("fonts/lato-v23-latin-900.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("fonts/lato-v23-latin-900.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  width: 100%;
+  background-color: #363636;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  box-shadow: 0 0 10px #99bdf3;
+}
+
+/*Header styles start*/
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+.main {
+  display: flex;
+  align-items: stretch;
+  flex-wrap: nowrap;
+  height: 100%;
+}
+.style_part_left {
+  width: 40%;
+  background-color: #174180;
+}
+
+.style_part_right {
+  width: 60%;
+  background-color: #ebf0f5;
+}
+
+.wrapper_avatar {
+  display: flex;
+  justify-content: center;
+  padding: 45px 0px;
+}
+
+.avatar_header {
+  transition: 1s;
+  border-radius: 50%;
+  border: 3px solid #5826a8;
+  box-shadow: 0 0 100px #377be0;
+  width: 300px;
+}
+.avatar_header:hover {
+  transform: scale(1.2); /* Увеличиваем масштаб */
+}
+.heder_right_wrapper {
+  padding: 0px 60px;
+}
+.header_title {
+  padding: 150px 0px 20px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+}
+
+.header_subtitle {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+}
+/*Header styles end*/
+/*Main styles start*/
+.contacts {
+  padding: 30px 60px 10px;
+}
+
+.header_contacts {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  color: #ffffff;
+  padding-bottom: 15px;
+}
+
+.list_contacts {
+  padding-bottom: 10px;
+}
+
+.link_icons {
+  display: inline-flex;
+  align-items: center;
+  padding-bottom: 3px;
+  text-decoration: none;
+  border-bottom: 3px solid #174180;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #56ccf2;
+}
+
+.link_icons:hover,
+.link_icons:focus,
+.link_icons:active {
+  border-bottom: 3px solid #b9b9cf;
+  color: #b9b9cf;
+}
+
+.image_icons {
+  width: 32px;
+}
+
+.link_text {
+  padding-left: 10px;
+}
+
+/*Education start*/
+.education {
+  padding: 30px 60px 10px;
+}
+
+.wrapper_education {
+  padding: 20px 0px;
+}
+
+.date_study {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: #56ccf2;
+}
+
+.text_university {
+  padding-left: 10px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #ffffff;
+  line-height: 1.4;
+}
+.bold_font {
+  color: #cfcceb;
+}
+.wrapper_education .image_icons {
+  width: 45px;
+}
+/*Education end*/
+/* Skills start */
+.skills {
+  padding: 30px 60px 10px;
+}
+.list_skills {
+  padding-bottom: 15px;
+}
+.level_skills {
+  padding: 0px 10px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #56ccf2;
+}
+progress {
+  width: 260px;
+  height: 20px;
+}
+/* Skills end */
+
+/*Foreign languages start*/
+.languages {
+  padding: 30px 60px 50px;
+}
+.languages_wrapper {
+  display: inline-flex;
+  align-items: center;
+}
+.text_skills {
+  padding-left: 10px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #56ccf2;
+}
+.circle {
+  background: #dbdde1;
+  clip-path: circle(50%);
+  height: 13px;
+  width: 13px;
+}
+/*Foreign languages end*/
+/* About me start */
+.left_padding {
+  padding: 30px 60px 50px 60px;
+}
+.about_me {
+  padding-bottom: 40px;
+}
+.header_section {
+  padding-bottom: 10px;
+  font-family: "Lato";
+  font-style: italic;
+  font-weight: 700;
+  font-size: 24px;
+  color: #174180;
+}
+
+.text_basis {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #4f4f4f;
+  line-height: 1.2;
+}
+/* About me end */
+/* Work Expirience start */
+.work {
+  padding-bottom: 40px;
+}
+.link_icons .text_basis {
+  padding-left: 10px;
+}
+.work .link_icons {
+  border-bottom: 3px solid #ebf0f5;
+}
+.work .link_icons:hover,
+.work .link_icons:focus,
+.work .link_icons:active {
+  border-bottom: 3px solid #b9b9cf;
+}
+/* Work Expirience eng */
+/* Code example start */
+.code {
+  padding-bottom: 40px;
+}
+.main_bold_font {
+  font-weight: 900;
+}
+.code_text_decoration {
+  line-height: 1.2;
+}
+/* Code example end */
+/*Projects start*/
+.projects {
+  padding-bottom: 40px; 
+}
+
+.link_icons .text_basis {
+  padding-left: 10px;
+}
+.projects .link_icons {
+  border-bottom: 3px solid #ebf0f5;
+}
+.projects .link_icons:hover,
+.projects .link_icons:focus,
+.projects .link_icons:active {
+  border-bottom: 3px solid #b9b9cf;
+}
+.text_basis .link_icons {
+  padding-left: 10px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #4f4f4f;
+  line-height: 1.2;
+}
+/*Projects end*/
+/* Achievement start */
+
+/* Achievement end */
+/*Main styles end*/
+.achievement {
+  padding-bottom: 40px; 
+}
+/* Footer start */
+.footer {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #99abd5;
+  box-shadow: 0 0 10px #99bdf3;
+}
+.footer_list {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  height: 100%;
+  padding: 10px 0px;
+}
+.list_items_footer {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+}
+
+.link_footer {
+  text-decoration: none;
+  border-bottom: 3px solid #99abd5;
+}
+
+.link_footer:hover,
+.link_footer:focus,
+.link_footer:active {
+  border-bottom: 3px solid #3c3c96;
+}
+.image_footer {
+  width: 40px;
+}
+.image_footer.rs_school {
+  width: 100px;
+}
+.text_footer {
+  display: flex;
+  justify-content: center;
+  padding: 5px 0px 10px;
+
+  word-spacing: 7px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  color: #0c0b0b;
+}
+/* Footer end */
