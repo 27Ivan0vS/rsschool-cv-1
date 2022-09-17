@@ -137,7 +137,7 @@
                   src="img/SumySU.jpg"
                   alt="Link on Sumy State University">
                 <div class="text_university">
-                  <span class="bold_font">University:</span> Sumy State University, faculty of Electronics and Information Technology.
+                  <p><span class="bold_font">University:</span> Sumy State University, faculty of Electronics and Information Technology.</p>
                 </div>
               </a>
             </div>
@@ -240,22 +240,22 @@
               <p class="text_basis"> <span class="main_bold_font">KATA from CODEWARS:</span> This function replaces every letter with its position in the alphabet. If anything in the text isn&#39;t a letter, ignore it and don&#39;t return it.</p>
               <pre>
                 <code class="code_text_decoration">
-                  function alphabetPosition(text) {
+            function alphabetPosition(text) {
 
-                    let newArr = text
-                      .toLowerCase()
-                      .split("")
-                      .reduce((acc, item) =	&gt; {
-                        
-                        if (item.charCodeAt() 	&gt; 96 &amp;&amp; item.charCodeAt() 	&lt; 123) {
-                          return acc + ` ${item.charCodeAt() - 96}`;
-                        } else {
-                          return acc;
-                        }
-                      }, "");
-                  
-                    return newArr.slice(1);
-                  }
+              let newArr = text
+                 .toLowerCase()
+                 .split("")
+                 .reduce((acc, item) =	&gt; {
+
+                   if (item.charCodeAt() &gt; 96 &amp;&amp; item.charCodeAt() &lt; 123) {
+                       return acc + ` ${item.charCodeAt() - 96}`;
+                    } else {
+                       return acc;
+                      }
+                    }, "");
+
+                return newArr.slice(1);
+               }
                 </code>
               </pre>
             </section>
